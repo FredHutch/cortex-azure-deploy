@@ -3,6 +3,8 @@ provider "azurerm" {
 
 
 resource "azurerm_resource_group" "cortex-development" {
-	  name     = "cortexdev"
+	  name     = "cortexdevelopment"
 		  location = "West US"
 		}
+
+

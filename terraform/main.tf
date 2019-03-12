@@ -7,7 +7,7 @@ terraform {
 }
 
 resource "azurerm_resource_group" "cortex-development" {
-	  name     = "cortexdevelopment2"
+	  name     = "cortexdevgroup"
 		  location = "West US"
 		}
 
